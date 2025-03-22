@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="hde64\hde64.cpp">
+      <Filter>Includes\hde64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Structs.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="hde64\hde64.h">
+      <Filter>Includes\hde64</Filter>
+    </ClInclude>
+    <ClInclude Include="hde64\stdint.h">
+      <Filter>Includes\hde64</Filter>
+    </ClInclude>
+    <ClInclude Include="hde64\table64.h">
+      <Filter>Includes\hde64</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{4c1eaf90-7948-4d13-8a06-e0052cfb45e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\hde64">
+      <UniqueIdentifier>{eca083f6-4a4c-4e00-b5ab-b539bb23033b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
